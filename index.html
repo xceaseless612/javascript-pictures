@@ -18,15 +18,939 @@
                 width:40px;
 
             }
+    * {
+        font-family:monospace;
+        color:white;
+    }
         </style>
     </head>
     <body>
-        <div class="navigation"><h6>jspicture.ml/</h6></div>
+        <div class="navigation"><h6 style="margin-left:10px;margin-top:4px;">jsPictures</h6></div>
         <BR><BR><BR><BR>
             <h1 style="text-align: center;font-family:monospace;color:green;">/welcome to my website!</h1>
 
-        <script>
-        </script>
+        <p style="text-align: center;font-family:monospace;color:green;">//here is a polar bear:</p>
+        
+    <canvas id="picture1" width="400px" height="400px"style="border:1px solid black;background-color:#697B9F;position:absolute;right:0;border-radius:20px;"></canvas>
+
+<img src="https://classroomclipart.com/image/static7/preview2/cute-baby-polar-bear-enjoys-the-snowy-weather-with-a-warm-scarf-71303.jpg" width="400px" height="400px" style="position:absolute; left:0;border-radius:20px; "></img>
+
+<p style="font-family:monospace;color:black;position:absolute;left:0;">original:</p>
+        <p style="font-family:monospace;color:black;position:absolute;right:0;">:final</p>
+
+        <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+        <center><p>This is my finished project for my computer class, but I might add the snow and other features later on.</p>
+        <p>Here is the code for the repilicated picture:</p>
+    <a href="https://codepen.io/Ceaseless-the-bold/pen/GgKxbyr" style="text-decoration:none;color:cornflowerblue;">CodePen Link</a>
+            <BR><BR><BR><BR><BR><BR><BR>
+            <h5>James Zucco, Pd. 3, Computers (Mrs. Wardzinski)</h5>
+</center>
+<script>
+    const canvas = document.getElementById("picture1");
+    const ctx = canvas.getContext("2d");
+        ctx.beginPath();
+    ctx.fillStyle="white";
+    ctx.beginPath();
+    ctx.ellipse(19,349,21,20.5,0,0,2*Math.PI);
+    ctx.fill();
+        ctx.ellipse(23,340,21,18.5,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.ellipse(33,345,21,18.5,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.ellipse(21,342,21,18.5,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.ellipse(71.5,319.5,31,24,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.ellipse(58.5,324,22,20.5,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.ellipse(82.5,323,24,22,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.ellipse(128,324,23,25,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.ellipse(287,323,22,20,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.ellipse(292,327,23,22,25,0,2*Math.PI);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.ellipse(338,334.5,24.5,20,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.ellipse(376.5,349,22,20,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.ellipse(380.5,353,22,20,0,0,2*Math.PI);
+    ctx.fill();
+    
+    
+        //ground section
+    ctx.beginPath();
+    ctx.ellipse(200,525,330,209,0,0,2*Math.PI);
+    ctx.strokeStyle="red";
+    ctx.fillStyle="#C5D9E4";
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.ellipse(64,381,16,8,0,0,2*Math.PI);
+    ctx.fillStyle="#A3C7D7";
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.ellipse(47,354,11,4,0,0,2*Math.PI);
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.ellipse(364,355,10,4,0,0,2*Math.PI);
+    ctx.fill();
+    
+    
+    //body
+    ctx.strokeStyle="#C5D9E4";
+    ctx.fillStyle="#C5D9E4";
+    ctx.beginPath();
+    ctx.ellipse(199,271,83,89,0,0,2*Math.PI);
+    ctx.stroke();
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.ellipse(196,283,83,93,0,0,2*Math.PI);
+    ctx.stroke();
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.ellipse(202,283,83,93,0,0,2*Math.PI);
+    ctx.stroke();
+    ctx.fill();
+
+    //////////
+    //////////
+    //////////
+    ////////// HEAD FINISHED; EARS AND SCARF SECTION
+    //////////
+    //////////
+    //////////
+    //////////
+    
+    
+    // scarf cloth end section
+	ctx.strokeStyle="#8F6D90"
+    ctx.beginPath();
+    ctx.fillStyle="#8F6D90";
+    ctx.ellipse(202.5,256.5,2,2,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.stroke();
+
+    ////*////*////*////
+    //*//*////*////*//
+    ctx.beginPath();
+    ctx.moveTo(201,255);
+    ctx.lineTo(206,248.5);
+    ctx.lineTo(204.5,256);
+    ctx.lineTo(201,255);
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.ellipse(210,260.5,2,2,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.stroke();
+
+    ////*////*////*////
+    //*//*////*////*//
+    ctx.beginPath();
+    ctx.moveTo(208.5,258);
+    ctx.lineTo(213.5,251.5);
+    ctx.lineTo(212,259);
+    ctx.lineTo(208.5,258);
+    ctx.fill();
+    ctx.stroke();
+    
+    ctx.beginPath();
+    ctx.ellipse(219,261.2,2,2,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.stroke();
+    ////*////*////*////
+    //*//*////*////*//
+    ctx.beginPath();
+    ctx.moveTo(217,258.5);
+    ctx.lineTo(220,252);
+    ctx.lineTo(220.5,259.5);
+    ctx.lineTo(217,258.5);
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.ellipse(227.5,261.5,2,2,0,0,2*Math.PI);
+    ctx.stroke();
+    
+    ////*////*////*////
+    //*//*////*////*//
+    ctx.fill();
+    ctx.stroke();
+    ctx.moveTo(226,258.5);
+    ctx.lineTo(227,252);
+    ctx.lineTo(230,259.5);
+    ctx.lineTo(226,258.5);
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.ellipse(236.7,261.2,2,2,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.stroke();
+    
+    ////*////*////*////
+    //*//*////*////*//
+    ctx.beginPath();
+    ctx.moveTo(235,258.5);
+    ctx.lineTo(236,252);
+    ctx.lineTo(239,259.5);
+    ctx.lineTo(235,258.5);
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.ellipse(246,259,2,2,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.stroke();
+    
+    ////*////*////*////
+    //*//*////*////*//
+    ctx.beginPath();
+    ctx.moveTo(244,258.5);
+    ctx.lineTo(242,251);
+    ctx.lineTo(248,259.5);
+    ctx.lineTo(244,258.5);
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.ellipse(252.4,254.5,2,2,0,0,2*Math.PI);
+    ctx.fill();
+    ctx.stroke();
+    
+    ////*////*////*////
+    //*//*////*////*//
+    ctx.beginPath();
+    ctx.moveTo(251,255.5);
+    ctx.lineTo(246,246);
+    ctx.lineTo(255,254.5);
+    ctx.lineTo(251,255.5);
+    ctx.fill();
+    ctx.stroke();
+
+
+    //ctx.stroke();
+    
+    
+    
+     //
+    // NEW SECTION-BODY
+    //
+    ctx.beginPath();
+    ctx.ellipse(199,170,60.5,65,0,0,2*Math.PI);
+    ctx.stroke();
+    //ctx.beginPath();
+    //ctx.moveTo();
+    
+
+	// legs
+    ctx.strokeStyle="#A4CAD7";
+    ctx.fillStyle="#A4CAD7";
+    
+    ctx.beginPath();
+    ctx.moveTo(129.5,284.5);
+    ctx.lineTo(129.5,285.5);
+    ctx.lineTo(129,290);
+    ctx.lineTo(128.5,294);
+    ctx.lineTo(128,300);
+    ctx.lineTo(128,306);
+    ctx.lineTo(128.5,312);
+    ctx.lineTo(129,318);
+    ctx.lineTo(129.5,322);
+    ctx.lineTo(130.5,325);
+    ctx.lineTo(132,330);
+    ctx.lineTo(133,335);
+    ctx.lineTo(135,338);
+    ctx.lineTo(138,342);
+    ctx.lineTo(138.5,360);
+    ctx.lineTo(132.5,360);
+    ctx.lineTo(131,339);
+    ctx.lineTo(130,336);
+    ctx.lineTo(129.5,334);
+    ctx.lineTo(129,331);
+    ctx.lineTo(128.5,327);
+    ctx.lineTo(126.5,320);
+    ctx.lineTo(126,315);
+    ctx.lineTo(125.5,304);
+    ctx.lineTo(126.5,294);
+    ctx.lineTo(127.5,290);
+    ctx.lineTo(129.5,284.5);
+    ctx.stroke();
+    ctx.fill();
+    
+    
+    
+    ctx.beginPath();
+    ctx.moveTo(149,276);
+    ctx.lineTo(151.5,279);
+    ctx.lineTo(153,280.5);
+    ctx.lineTo(154.5,283);
+    ctx.lineTo(157,286);
+    ctx.lineTo(159,290);
+    ctx.lineTo(162,295);
+    ctx.lineTo(163.5,300);
+    ctx.lineTo(165,306);
+    ctx.lineTo(166.5,312);
+    ctx.lineTo(168,318);
+    ctx.lineTo(169.5,329);
+    ctx.lineTo(171,338);
+    ctx.lineTo(171.5,350);
+    ctx.lineTo(200.5,350);
+    ctx.lineTo(200,332.5);
+    ctx.lineTo(194,333);
+    ctx.lineTo(187,331.5);
+    ctx.lineTo(181,330);
+    ctx.lineTo(175,328);
+    ctx.lineTo(173.5,327);
+    ctx.lineTo(173,322);
+    ctx.lineTo(170,312);
+    ctx.lineTo(167,304);
+    ctx.lineTo(165.5,300);
+    ctx.lineTo(162,291);
+    ctx.lineTo(161,289);
+    ctx.lineTo(158,285);
+    ctx.lineTo(156,282.5);
+    ctx.lineTo(154,280);
+    ctx.lineTo(149,276);
+    ctx.stroke();
+    ctx.fill();
+    
+        ctx.beginPath();
+    ctx.moveTo(243.5,279); //149,276 (ALREADY STARTED)
+    ctx.lineTo(244,280.5); //153
+    ctx.lineTo(242.5,283);//154.5
+    ctx.lineTo(240,286); //157
+    ctx.lineTo(238,290); //159
+    ctx.lineTo(235,295); //162
+    ctx.lineTo(233.5,300); //163.5
+    ctx.lineTo(232,306); //165
+    ctx.lineTo(231,312); //166.5 might fix
+    ctx.lineTo(230,318); //168
+    ctx.lineTo(228.5,329); //169.5
+    ctx.lineTo(227,338); //171
+    ctx.lineTo(226.5,350); //171.5
+    ctx.lineTo(197.5,350); //200.5
+    ctx.lineTo(198,332.5); //200
+    ctx.lineTo(204,333); //194
+    ctx.lineTo(211,331.5); //187
+    ctx.lineTo(217,330); //181
+    ctx.lineTo(223,328); //175
+    ctx.lineTo(223.5,327); //173.5
+    ctx.lineTo(224,322); //173
+    ctx.lineTo(227,312); //170
+    ctx.lineTo(230,304); //167
+    ctx.lineTo(231.5,300); //165.5
+    ctx.lineTo(235.5,291); //162
+    ctx.lineTo(236.5,289); //161
+    ctx.lineTo(239.5,285); //158
+    ctx.lineTo(241.5,282.5); //156
+    ctx.lineTo(243.5,280); //154
+    ctx.lineTo(244.5,280); //149
+    ctx.stroke();
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.moveTo(263.5,279.5); //234 y-6 129.5,284.5
+    ctx.lineTo(267.5,284);
+    ctx.lineTo(269.5,289);
+    ctx.lineTo(270.5,294);
+    ctx.lineTo(272,305);
+    ctx.lineTo(270,319);
+    ctx.lineTo(268,329);
+    ctx.lineTo(266,337);
+    ctx.lineTo(270,338);
+    ctx.lineTo(271,335);
+    ctx.lineTo(273,321);
+    ctx.lineTo(273,319);
+    ctx.lineTo(273.5,310);
+    ctx.lineTo(273,301);
+    ctx.lineTo(272.5,297);
+    ctx.lineTo(270.5,290);
+    ctx.lineTo(265,282);
+    ctx.lineTo(263.5,279.5);
+    ctx.stroke();
+    ctx.fill();
+
+        ctx.strokeStyle="blue";
+    //scarf
+    ctx.beginPath();
+    //ctx.ellipse(199,168,60.5,65,0,0,2*Math.PI);
+    //ctx.stroke();
+
+    //ctx.moveTo(203,199);
+    //ctx.lineTo(203,233);
+    //ctx.stroke();
+
+
+
+    ctx.strokeStyle="black";
+    
+    ctx.beginPath();
+    ctx.moveTo(203,233.5);
+    ctx.lineTo(195,233);
+    ctx.lineTo(185,232);
+    ctx.lineTo(179,231);
+    ctx.lineTo(175,230);
+    ctx.lineTo(170,228.5);
+    ctx.lineTo(165,227);
+    ctx.lineTo(160.5,225);
+    ctx.lineTo(158,224);
+    ctx.lineTo(153,221.5);
+    ctx.lineTo(150,220);
+    ctx.lineTo(148,219);
+    ctx.lineTo(146,217.5);
+    ctx.lineTo(143,215.5);
+    ctx.lineTo(140,213);
+    //ctx.lineTo(137,210.5);
+    ctx.lineTo(135.5,208);
+    ctx.lineTo(134,203);
+    ctx.lineTo(133.5,196);
+    ctx.lineTo(133.5,192);
+    ctx.lineTo(134.5,187);
+    ctx.lineTo(136,184);
+    ctx.lineTo(137,182);
+    ctx.lineTo(138.5,180);
+    ctx.lineTo(140,178);
+    //not seen/to close off
+    ctx.lineTo(160,140);
+    ctx.lineTo(230,140);
+    ctx.lineTo(259,179);
+    ctx.lineTo(261,187);
+    ctx.lineTo(262,190);
+    ctx.lineTo(263,193);
+    ctx.lineTo(264,198);
+    ctx.lineTo(263.5,203);
+    ctx.lineTo(263,205);
+    ctx.lineTo(262,208);
+    ctx.lineTo(260,211);
+    ctx.lineTo(256,216);
+    ctx.lineTo(252,219);
+    ctx.lineTo(251,220);
+
+    ctx.fillStyle="#773C74";
+
+    ctx.lineTo(250,218);
+    ctx.lineTo(249.5,214);
+    ctx.lineTo(248,205.5);
+    ctx.lineTo(246,200);
+    ctx.lineTo(244,195);
+    ctx.lineTo(241,189);
+    ctx.lineTo(240.5,170);
+    ctx.lineTo(200,171);
+    ctx.lineTo(203.5,172);
+    ctx.lineTo(203.5,233.5);
+    ctx.fill();
+    //ctx.stroke();
+
+	//
+    //
+    // inner lighter part of left scarf section
+    //
+    //
+    ctx.beginPath();
+    ctx.moveTo(201,231.5);
+    ctx.lineTo(195,231);
+    ctx.lineTo(185,230);
+    ctx.lineTo(179,229);
+    ctx.lineTo(175,228);
+    ctx.lineTo(170,226.5);
+    ctx.lineTo(165,225);
+    ctx.lineTo(160.5,223);
+    ctx.lineTo(158,222);
+    ctx.lineTo(153,219.5);
+    ctx.lineTo(149,216.5);
+    ctx.lineTo(145,213.5);
+    ctx.lineTo(143,212);
+    ctx.lineTo(140.5,209);
+    ctx.lineTo(139,206);
+    ctx.lineTo(138,202);
+    ctx.lineTo(137,197);
+    ctx.lineTo(137.5,189.5);
+    ctx.lineTo(143,192.5);
+    ctx.lineTo(149,196);
+    ctx.lineTo(159,200.5);
+    ctx.lineTo(166,203);
+    ctx.lineTo(172,205);
+    ctx.lineTo(181,207);
+    ctx.lineTo(192,208.5);
+    ctx.lineTo(201,208.5);
+    ctx.lineTo(201,231.5);
+    //ctx.lineTo(137,210.5);
+
+	
+    ctx.fillStyle="#8C5C8E";
+    ctx.fill();
+
+    
+    //right side of scarf
+    ctx.fillStyle="#A5769A";
+        
+    ctx.beginPath(); 
+    // (these numbers commented are supposed to represent the initial value of the left side shape in order to calculate the opposite side.
+    ctx.moveTo(203.5,233.5); //203
+    ctx.lineTo(204,240);
+    ctx.lineTo(204.5,246);
+    ctx.lineTo(206,248);
+    ctx.lineTo(208,249);
+    ctx.lineTo(209.5,250);
+    ctx.lineTo(212.5,251);
+    ctx.lineTo(215,251.5);
+    //ctx.lineTo();
+    ctx.lineTo(218,252);
+    ctx.lineTo(222, 252.5);
+    ctx.lineTo(227,253);
+    ctx.lineTo(232,252.5);
+    ctx.lineTo(238,251.5);
+    ctx.lineTo(242.5,250);
+    ctx.lineTo(246,248);
+    ctx.lineTo(247,247);
+    ctx.lineTo(248,245);
+    ctx.lineTo(249,241);
+    ctx.lineTo(249.5, 235);
+    ctx.lineTo(250,228);
+    ctx.lineTo(250,224);
+    //ctx.lineTo();
+    ctx.lineTo(250,218);
+    ctx.lineTo(249.5,214);
+    ctx.lineTo(248,205.5);
+    ctx.lineTo(246,200);
+    ctx.lineTo(244,195);
+    ctx.lineTo(241,189);
+    ctx.lineTo(240.5,170);
+    ctx.lineTo(200,171);
+    ctx.lineTo(203.5,172);
+    ctx.lineTo(203.5,233.5);
+    ctx.fill(); // Head
+// right scarf inner under part
+    ctx.beginPath();
+    ctx.lineTo(262,189.5);
+    ctx.lineTo(264,198);
+    ctx.lineTo(263.5,203);
+    ctx.lineTo(263,205);
+    ctx.lineTo(262,208);
+    ctx.lineTo(260,211);
+    ctx.lineTo(256,216);
+    ctx.lineTo(252,219);
+    ctx.lineTo(251,220);
+
+    ctx.strokeStyle="red";
+
+    ctx.lineTo(250,218);
+    ctx.lineTo(249.5,214);
+    ctx.lineTo(248,205.5);
+    ctx.lineTo(246,200);
+    ctx.lineTo(244.5,198);
+    ctx.lineTo(253,195);
+    ctx.lineTo(262,189.5);
+    ctx.fillStyle="#8D6290";
+    ctx.fill();
+    //right side of scarf, darker middle parts
+    ctx.beginPath();
+    ctx.moveTo(204,208);
+    ctx.lineTo(222,205);
+    ctx.lineTo(236,200.5);
+    ctx.lineTo(245,197.5);
+    ctx.lineTo(242,192);
+    ctx.lineTo(240.5,189.5);
+    ctx.lineTo(204,183);
+    ctx.lineTo(204,208);
+    ctx.fillStyle="#8D5F8D";
+    ctx.fill();
+    
+//right side of scarf, darker middle parts
+    ctx.beginPath();
+    ctx.moveTo(204,230);
+    ctx.lineTo(217,229.5);
+    ctx.lineTo(224,228.5);
+    ctx.lineTo(232,227);
+    ctx.lineTo(239,225);
+    ctx.lineTo(245,223);
+    ctx.lineTo(250,221);
+    ctx.lineTo(249.5,226.5)
+        ctx.lineTo(245,228.5);
+    ctx.lineTo(239,230.5);
+    ctx.lineTo(232,232.5);
+    ctx.lineTo(224,234);
+    ctx.lineTo(217,235);
+    ctx.lineTo(204,235);
+    ctx.lineTo(204,230);
+    
+    ctx.strokeStyle="black";
+    ctx.fill();
+
+
+    //ears section
+    //outer ear shadow
+    ctx.beginPath();
+    
+    ctx.ellipse(134,76,22,24,0,0,2*Math.PI);
+    ctx.fillStyle="#BFDAE1";
+    ctx.fill();
+
+    //outer ear (no shadow)
+    ctx.beginPath();
+    ctx.ellipse(136,68,16.5,15,0,0,2*Math.PI);
+    ctx.fillStyle="#E4E9EF";
+    ctx.fill();
+
+    // inner ear
+    ctx.beginPath();
+    ctx.ellipse(136,78,15,15,0,0,2*Math.PI);
+    ctx.fillStyle="#EAC2BA";
+    ctx.fill();
+    // ear shadow color: #BFDAE1
+    // outer ear no shadow color:#E1E9EB
+    // inner ear color: #EAC2BA
+
+        //ears section
+    //outer ear shadow
+    ctx.beginPath();
+    
+    //outer ear no shadow
+    ctx.ellipse(263.5,76,23,24,0,0,2*Math.PI);
+    ctx.fillStyle="#E1E9EB";
+    ctx.fill();
+
+    // inner ear
+    ctx.beginPath();
+    ctx.ellipse(264.5,78,14,15,0,0,2*Math.PI);
+    ctx.fillStyle="#EAC2BA";
+    ctx.fill();
+
+    //outer ear shadow
+    ctx.beginPath();
+    ctx.moveTo(260,78);
+    ctx.lineTo(253,54);
+    ctx.lineTo(252,55);
+    ctx.lineTo(249,57);
+    ctx.lineTo(247,59);
+ctx.lineTo(245,61.5);
+    ctx.lineTo(243,64.5);
+    ctx.lineTo(243.5,80);
+    ctx.lineTo(260,78);
+    
+    ctx.fillStyle="#BFDAE1";
+    ctx.fill();
+
+// ear shadow color: #BFDAE1
+    // outer ear no shadow color:#E1E9EB
+    // inner ear color: #EAC2BA
+
+    ctx.beginPath();
+    // do the normal code as written but add the ctx identifier before it
+
+    // ellipse (x, y, radiusX, radiusY, rotation, startAngle, endAngle)
+
+    //head shadow
+    
+    ctx.ellipse(198.75, 127, 82, 73, 0, 0, 2 * Math.PI);
+    ctx.fillStyle = "#C3DAE2";
+    ctx.fill();
+
+    //if rotation and angling is not                            available:
+    //ctx.beginPath();
+    //ctx.ellipse(210.5, 125, 69, 71, 0, 0, 2 * Math.PI);
+    //ctx.stroke();
+
+    //head (no shadow)
+    ctx.beginPath();
+    ctx.ellipse(209, 126, 71, 69, 0, 0, 2 * Math.PI);
+    ctx.fillStyle = "#E3EAF0";
+    ctx.fill();
+            // complete off head no shadow
+    ctx.beginPath();
+    ctx.ellipse(205, 117, 64, 58, 0, 0, 2 * Math.PI);
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.ellipse(209, 110, 64, 58, 0, 0, 2 * Math.PI);
+    ctx.fill();
+
+
+    ctx.beginPath();
+    ctx.ellipse(188.75, 83, 27, 25, 0, 0, 2 * Math.PI);
+    ctx.fill();
+
+
+
+
+    //triangle (x1, y1, x2, y2, x3, y3);
+
+    //snout section
+    ctx.beginPath();
+    ctx.moveTo(166,164);
+    ctx.lineTo(230,164);
+    ctx.lineTo(199,119);
+    ctx.lineTo(166,164);
+    ctx.fillStyle="#F6F5F3";
+    ctx.fill();
+    //ellipses for round snout section
+    ctx.beginPath();
+    ctx.ellipse(194,153,25,29,0,0,2*Math.PI);
+    ctx.fill();
+
+    ctx.beginPath();          ctx.ellipse(204,153,25,29,0,0,2*Math.PI);
+    ctx.fill();
+
+    ctx.beginPath();          ctx.ellipse(199,148,25.5,29,0,0,2*Math.PI);
+    ctx.fill();
+
+    ctx.beginPath();          ctx.ellipse(194,155,28,29,0,0,2*Math.PI);
+    ctx.fill();
+
+    ctx.beginPath();          ctx.ellipse(204,155,28,29,0,0,2*Math.PI);
+    ctx.fill();
+
+    ctx.beginPath();          ctx.ellipse(199,156,25,29,0,0,2*Math.PI);
+    ctx.fill();
+    // mouth-nose section
+    ctx.beginPath();
+    ctx.moveTo(186,147);
+    ctx.lineTo(185,145);
+    ctx.lineTo(184,143);
+    ctx.lineTo(184,139);
+    ctx.lineTo(186,136);
+    ctx.lineTo(188,135);
+    
+    ctx.lineTo(188,135);
+    ctx.lineTo(190,134);
+    ctx.lineTo(198,133);
+    ctx.lineTo(206,134);
+    ctx.lineTo(209,135);
+    ctx.lineTo(211,136);
+    ctx.lineTo(214,139);
+    ctx.lineTo(214,143);
+    ctx.lineTo(211,149);
+    ctx.lineTo(209,151);
+    ctx.lineTo(205,154.2);
+    ctx.lineTo(201,156);
+    ctx.lineTo(199,156);
+    ctx.lineTo(197,155.7);
+    ctx.lineTo(196,155.6);
+    ctx.lineTo(194,154.4);
+    ctx.lineTo(192,153.4);
+    ctx.lineTo(189.5,151);
+    ctx.lineTo(187.5,149);
+    ctx.lineTo(187,148);
+    ctx.lineTo(186,147);
+    ctx.fillStyle = "black";
+    ctx.fill();
+    //mouth-
+    ctx.beginPath();
+    ctx.moveTo(199.5,156);
+    ctx.lineTo(199.5,163);
+
+    // ctx.arc (x, y, radius, startagnle, endangle, anticlockwise)  
+    ctx.strokeStyle = "black";
+    ctx.stroke();
+
+    //arcs for the mouth
+
+    ctx.beginPath();
+    ctx.arc(191.5,161.5,7,0,3.14, false);
+    ctx.stroke();
+    
+    ctx.beginPath();
+    ctx.arc(207.5,161.5,7,0,3.14, false);
+    ctx.stroke();
+
+
+
+
+
+    //eyes section
+    ctx.beginPath();          ctx.ellipse(161,121,7.5,9,0,0,2*Math.PI);
+    ctx.fill();
+
+    ctx.beginPath();          ctx.ellipse(237,121,7.5,9,0,0,2*Math.PI);
+    ctx.fill();
+
+    //pupil
+    ctx.beginPath();          ctx.ellipse(163,119,3,3,0,0,2*Math.PI);
+    ctx.fillStyle = "#FAFAFC";
+    ctx.fill();
+
+    ctx.beginPath();          ctx.ellipse(239,119,3,3,0,0,2*Math.PI);
+    ctx.fill();
+
+
+
+    //eyebrows
+    ctx.beginPath();
+    ctx.moveTo(155,92);
+    ctx.lineTo(156,90);
+    ctx.lineTo(156.5,89);
+    ctx.lineTo(159,86);
+    ctx.lineTo(161,84);
+    ctx.lineTo(163,83);
+    ctx.lineTo(166,83);
+    ctx.lineTo(168,84);
+    ctx.lineTo(168.5,85);
+    ctx.lineTo(168,86);
+    ctx.lineTo(166,86.5);
+    ctx.lineTo(164,86);
+    ctx.lineTo(161,86.5);
+    ctx.lineTo(159,88);
+    ctx.lineTo(157,90);
+    ctx.lineTo(155,92);
+    
+    ctx.fillStyle="#B2BFC5"
+    ctx.strokeStyle="#B2BFC5"
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.moveTo(245,92); //155
+    ctx.lineTo(244,90); //156
+    ctx.lineTo(243.5,89); //156.5
+    ctx.lineTo(241,86); //159
+    ctx.lineTo(239,84); //161
+    ctx.lineTo(237,83); //163
+    ctx.lineTo(234,83); //166
+    ctx.lineTo(232,84); //168
+    ctx.lineTo(231.5,85); //168.5
+    ctx.lineTo(232,86); //168
+    ctx.lineTo(234,86.5); //166
+    ctx.lineTo(236,86); //164
+    ctx.lineTo(239,86.5); //161
+    ctx.lineTo(241,88); //159
+    ctx.lineTo(243,90); //157
+    ctx.lineTo(245,92); //155
+                    
+    ctx.fill();
+
+
+
+
+    //////////
+    //////////
+    //////////
+    ////////// HEAD FINISHED; EARS AND SCARF SECTION
+    //////////
+    //////////
+    //////////
+    //////////
+
+
+
+
+
+        //
+    //
+    //
+    //
+
+
+    
+
+    // LOWER SNOW SECTION
+        //RIGHT SNOW SECTION
+    ctx.beginPath();
+    ctx.moveTo(248,384.5);
+    ctx.lineTo(202,358.5);
+    ctx.lineTo(171,354.5);
+    ctx.lineTo(156,351.5);
+    ctx.lineTo(202,335);
+    ctx.lineTo(213,336.5);
+    ctx.lineTo(219,336);
+    ctx.lineTo(223,335);
+    ctx.lineTo(227,333.5);
+    ctx.lineTo(232.5,331.5);
+    ctx.lineTo(238,330.5);
+    ctx.lineTo(241,330);
+    ctx.lineTo(246,330.5);
+    ctx.lineTo(251,331.5);
+    ctx.lineTo(257,333.5);
+    ctx.lineTo(264,336);
+    ctx.lineTo(273,339.5);
+    ctx.lineTo(315,348);
+    ctx.lineTo(325,350.5);
+    ctx.lineTo(331,352.5);
+    ctx.strokeStyle="green";
+    ctx.lineTo(336,354.5);
+    ctx.lineTo(341,357);
+    ctx.lineTo(347,361);
+    ctx.lineTo(353,365);
+    ctx.lineTo(359,372);
+    ctx.lineTo(360,376);
+    ctx.lineTo(358.5,379);
+    ctx.lineTo(356,381);
+    ctx.lineTo(349,382);
+    ctx.lineTo(342,381);
+    ctx.lineTo(330,379);
+    ctx.lineTo(312,377);
+    ctx.lineTo(270,378);
+    ctx.lineTo(265,380);
+    ctx.lineTo(259,382);
+    ctx.lineTo(248,384.5);
+    ctx.fillStyle="#E7F5F8";
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.arc(193,379,45,0,1*Math.PI,true);
+    
+    ctx.fill();
+    //LEFT SNOW SECTION
+    ctx.beginPath();
+    ctx.moveTo(62,367.5);
+    ctx.lineTo(72,368);
+    ctx.lineTo(77,369);
+    ctx.lineTo(83,370);
+    ctx.lineTo(91,372);
+    ctx.lineTo(94,373);
+    ctx.lineTo(98,374.5);
+    ctx.lineTo(101,376);
+    ctx.lineTo(107,379);
+    ctx.lineTo(112,381.5);
+    ctx.lineTo(117,383.5);
+    ctx.lineTo(123,385.5);
+    ctx.lineTo(131,387.5);
+    ctx.lineTo(141,389);
+    ctx.lineTo(152,390.5);
+    ctx.lineTo(162,391);
+    ctx.lineTo(170,391.5);
+    ctx.lineTo(188,391.25);
+    ctx.lineTo(200,390.5);
+    ctx.lineTo(222,388.5);
+    ctx.lineTo(233,387);
+    ctx.lineTo(241,386);
+    ctx.lineTo(249,384.25);
+    ctx.lineTo(202,358.5);
+    ctx.lineTo(171,354.5);
+    ctx.lineTo(149,351);
+    ctx.lineTo(144.5,349);
+    ctx.lineTo(139,345);
+    ctx.lineTo(134,341.5);
+    ctx.arc(109,379,45,0,1.1*Math.PI,true);
+    ctx.lineTo(72,353);
+    ctx.lineTo(68,358);
+    ctx.lineTo(66,361);
+    ctx.lineTo(64,364.5);
+    ctx.lineTo(62,367.5);
+    
+    //ctx.lineTo(104,374);
+    ctx.strokeStyle="black";
+    ctx.fillStyle="#FAF9F7";
+    ctx.fill();
+    ctx.fillStyle="#E7F5F8";
+    </script>
 
     </body>
 </html>
